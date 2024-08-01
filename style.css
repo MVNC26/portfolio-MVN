@@ -1,0 +1,360 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #00102F;
+}
+
+.container-grid {
+    width: 80vw;
+    max-width: 1520px;
+    margin: 0 auto;
+}
+
+.banner {
+    height: 100vh;
+    width: 100%;
+
+    background-image: url(img/imagem\ principal.png);
+    background-repeat: no-repeat;
+
+    background-size: contain;
+    background-size: cover;
+}
+
+header{
+    height: 15%;
+
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header div.container-grid{
+    height: 75%;
+    display: flex;
+    align-items: center;
+}
+
+nav{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+   
+}
+
+.logo{
+    height: 100%;
+    width: 40% ;
+    display: flex;
+    align-items: center;
+}
+
+.logo a{
+    color: white;
+    text-decoration: none;
+    
+    font-family: "Mukta";
+    font-size: 30px;
+}
+
+.categorias{
+    height: 100%;
+    width: 40%;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.categorias a{
+    color: white;
+    text-decoration: none;
+
+    font-family: "Mukta";
+    font-size: 30px;
+}
+
+.conteudo{
+    height: 85vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.conteudo .container-grid {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.texto-apresentacao{
+    width: 700px;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.conteudo h1, p{
+    color: white;
+}
+
+h1{
+    margin-bottom: 2px;
+    font-family: "Mukta";
+    font-size: 55px;
+}
+
+.conteudo p{
+    font-family: "Inconsolata";
+    font-size: 29px;
+    text-align: justify;
+}
+
+#Curriculo{
+    margin-top: 100px;
+}
+
+#Curriculo .container-grid{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.blocos{
+    height: 300px;
+    width: 900px;
+
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 100px;
+    
+}
+
+.blocos svg{
+    height: 60px;
+    width: 60px;
+}
+
+.linhaum{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    margin-bottom: 50px;
+}
+
+.bloco1, .bloco2, .bloco3{
+    height: 90px;
+    width: 230px;
+    
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    border: solid;
+    border-color: #0081B8;
+}
+.bloco1 p, .bloco2 p, .bloco3 p{
+    font-size: 30px;
+
+   
+}
+
+.linhadois{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    margin-bottom: 50px;
+}
+
+.bloco1-1, .bloco2-2, .bloco3-3{
+    height: 90px;
+    width: 230px;
+    
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    border: solid;
+    border-color: #0081B8;
+}
+.bloco1-1 p, .bloco2-2 p, .bloco3-3 p{
+    font-size: 30px;
+
+   
+}
+
+.texto-curriculo{
+    width: 900px;
+
+    display: flex;
+    justify-content: center;
+
+    font-family: "Inconsolata";
+    font-size: 40px;
+    text-align: justify;
+    line-height: 60px;
+
+    margin-bottom: 300px;
+}
+
+.hospital1, .hospital2{
+    display: flex;
+    justify-content:space-between;
+
+    padding-right: 100px;
+    margin-bottom: 230px;
+}
+
+.gif1{
+    height: 600px;
+    width: 600px;
+    background-color: #00145B;
+    border-radius: 100px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gif2{
+    height: 750px;
+    width: 600px;
+    background-color: #00145B;
+    border-radius: 100px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.textohospital-1{
+    width: 400px;
+
+    font-family: "Inconsolata";
+     text-align: justify;
+    line-height: 45px;
+    font-size: 25px ;
+    display: flex;
+    align-items: center;
+}
+
+.textohospital-2{
+    width: 400px;
+
+    font-family: "Inconsolata";
+     text-align: justify;
+    line-height: 45px;
+    font-size: 25px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.textohospital-2 p{
+    margin-top: 50px;
+}
+
+.texto-crialed{
+    width: 400px;
+
+    font-family: "Inconsolata";
+     text-align: justify;
+    line-height: 45px;
+    font-size: 25px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.crialed{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 50px;
+
+}
+
+.texto-crialed img{
+    width: 600px;
+    height: 180px;
+}
+
+.gif3{
+    height: 600px;
+    width: 490px;
+    background-color: #00145B;
+    border-radius: 100px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gif3 img{
+    height: 400px;
+    width: 300px;
+}
+
+footer{
+    height: 200px;
+    background-color: #00288F;
+
+    margin-top: 200px;
+}
+
+footer .container-grid{
+    height: 100%;
+    display: flex;
+
+    align-items: center;
+    justify-content: space-between;
+}
+
+.texto-footer{
+
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+    font-family: "Mukta";
+    font-size: 25px;
+}
+
+.icones-redes{
+    height: 100px;
+    width: 500px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.icones-redes svg{
+    height: 60px;
+    width: 60px;
+}
+
+
+
